@@ -26,6 +26,17 @@
 		02ED04AD24C5D2150004032F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02ED04AF24C5D2170004032F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02ED04B124C5D2170004032F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02ED04B824C5D2390004032F /* PacketHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketHeader.h; sourceTree = "<group>"; };
+		02ED04B924C5D26A0004032F /* MotionPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MotionPacket.h; sourceTree = "<group>"; };
+		02ED04BA24C5D2C20004032F /* SessionPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionPacket.h; sourceTree = "<group>"; };
+		02ED04BB24C5D2E70004032F /* LapDataPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LapDataPacket.h; sourceTree = "<group>"; };
+		02ED04BC24C5D31C0004032F /* EventPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventPacket.h; sourceTree = "<group>"; };
+		02ED04BD24C5D3600004032F /* ParticipantsPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticipantsPacket.h; sourceTree = "<group>"; };
+		02ED04BE24C5D3850004032F /* CarSetupsPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarSetupsPacket.h; sourceTree = "<group>"; };
+		02ED04BF24C5D3AC0004032F /* CarTelemetryPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarTelemetryPacket.h; sourceTree = "<group>"; };
+		02ED04C024C5D3CF0004032F /* CarStatusPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarStatusPacket.h; sourceTree = "<group>"; };
+		02ED04C124C5D3FA0004032F /* FinalClassificationPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinalClassificationPacket.h; sourceTree = "<group>"; };
+		02ED04C224C5D4220004032F /* LobbyInfoPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LobbyInfoPacket.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 		02ED04A124C5D2150004032F /* F1Telemetry */ = {
 			isa = PBXGroup;
 			children = (
+				02ED04B724C5D21F0004032F /* DataPackets */,
 				02ED04A224C5D2150004032F /* AppDelegate.swift */,
 				02ED04A424C5D2150004032F /* GameScene.sks */,
 				02ED04A624C5D2150004032F /* Actions.sks */,
@@ -68,6 +80,24 @@
 				02ED04B124C5D2170004032F /* Info.plist */,
 			);
 			path = F1Telemetry;
+			sourceTree = "<group>";
+		};
+		02ED04B724C5D21F0004032F /* DataPackets */ = {
+			isa = PBXGroup;
+			children = (
+				02ED04B824C5D2390004032F /* PacketHeader.h */,
+				02ED04B924C5D26A0004032F /* MotionPacket.h */,
+				02ED04BA24C5D2C20004032F /* SessionPacket.h */,
+				02ED04BB24C5D2E70004032F /* LapDataPacket.h */,
+				02ED04BC24C5D31C0004032F /* EventPacket.h */,
+				02ED04BD24C5D3600004032F /* ParticipantsPacket.h */,
+				02ED04BE24C5D3850004032F /* CarSetupsPacket.h */,
+				02ED04BF24C5D3AC0004032F /* CarTelemetryPacket.h */,
+				02ED04C024C5D3CF0004032F /* CarStatusPacket.h */,
+				02ED04C124C5D3FA0004032F /* FinalClassificationPacket.h */,
+				02ED04C224C5D4220004032F /* LobbyInfoPacket.h */,
+			);
+			path = DataPackets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
